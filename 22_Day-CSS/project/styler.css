@@ -41,7 +41,7 @@ h1{
 }
 
 .search > button{
-    margin-left: 0.5rem;
+    margin-left: .5rem;
     font-size: 2rem;
     margin-bottom: 1rem;
     background-color: rgb(215, 46, 46);
@@ -126,6 +126,13 @@ h1{
     border-radius: 10px;
 }
 
+footer {
+    text-align: center;
+    padding: 5px;
+    background-color: #abbaba;
+    color: #000;
+  }
+  
 @media(max-width:650px){
     .logo{
         flex-direction: column;
