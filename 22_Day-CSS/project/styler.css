@@ -92,7 +92,15 @@ h1{
     height: 400px;
     object-fit: cover;
 }
-
+.images:hover {
+    opacity: 0.8;
+}
+.event > h2{
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: left;
+    padding-left: 2rem;
+}
 .movie{
     display: flex;
     max-width: 100vw;
@@ -133,6 +141,178 @@ footer {
     color: #000;
   }
   
+.live {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+/* Container for the ads section */
+.ads {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f5f5f5;
+    overflow: hidden;
+    width: 100%;
+}
+
+/* Individual ad picture container */
+.adspict {
+    flex: 1;
+    margin: 0 10px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: relative;
+    transition: transform 0.3s ease;
+}
+
+/* Image styling */
+.adsimg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+/* Navigation buttons for carousel */
+.ads::before,
+.ads::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 30px;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+.ads::before {
+    left: 10px;
+    content: '<';
+}
+
+.ads::after {
+    right: 10px;
+    content: '>';
+}
+
+/* Hover effect for ad images */
+.adspict:hover {
+    transform: scale(1.05);
+}
+
+/* Styling for the text and button below the ads */
+.book-now-section {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.book-now-section h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.book-now-section .book-now-btn {
+    padding: 10px 20px;
+    background-color: #d9534f;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.book-now-section .book-now-btn:hover {
+    background-color: #c9302c;
+}
+
+
+/* Footer Container */
+.footer {
+    background-color: #212121;
+    color: #aaa;
+    padding: 40px 20px;
+    font-family: Arial, sans-serif;
+}
+
+/* Footer Top Section */
+.footer-top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-bottom: 1px solid #444;
+    padding-bottom: 20px;
+}
+
+.footer-section {
+    width: 20%;
+    margin-bottom: 20px;
+}
+
+.footer-section h3 {
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.footer-section p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+/* Footer Bottom Section */
+.footer-bottom {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.footer-social {
+    margin-bottom: 15px;
+}
+
+.footer-social a {
+    color: #aaa;
+    margin: 0 10px;
+    font-size: 18px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-social a:hover {
+    color: #d9534f;
+}
+
+/* Footer Logo */
+.footer-logo img {
+    max-width: 150px;
+    margin: 20px auto;
+    display: block;
+}
+
+/* Footer Bottom Text */
+.footer p {
+    font-size: 12px;
+    color: #666;
+    margin-top: 15px;
+}
+
+
 @media(max-width:650px){
     .logo{
         flex-direction: column;
