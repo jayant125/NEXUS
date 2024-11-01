@@ -1,0 +1,12 @@
+
+/* Select By Class Name */
+/* You Need To Apply .(dot) */
+.first{
+    background-color: blueviolet;
+}
+
+/* Select By ID */
+/* You Need To Apply # */
+#third{
+    background-color: aquamarine;
+}

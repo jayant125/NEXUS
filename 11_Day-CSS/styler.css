@@ -1,0 +1,32 @@
+/* Universal Selector */
+/* *{
+    background-color: aqua;
+    color: brown;
+} */
+
+/* h1{
+    background-color: aqua;
+}
+h2{
+    background-color: brown;
+} */
+
+/* Group Selector */
+/* h1,h2,p, #third{
+    background-color: aqua;
+} */
+
+/* Select By Attrubite */
+/* h2[draggable="true"]{
+    background-color: chartreuse;
+} */
+
+/* Select By Descent */
+section p{
+    background-color: aqua;
+}
+
+/* Select By Child */
+section > p{
+    background-color: greenyellow;
+}

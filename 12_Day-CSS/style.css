@@ -1,0 +1,26 @@
+h1{
+    /* color: rgb(123, 220, 90);
+    background-color: rgb(106, 239, 239); */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    font-size: 2em;
+}
+
+/* Font Size 
+pixel px */
+
+body{
+    /* background-color: rgb(242, 207, 163);
+    background-image: url(../assets/IMG-20221216-WA0007.jpg);
+    background-size: cover; */
+}
+
+/* Name ke Sath */
+h3{
+    color: pink;
+}
+
+/* change by rgb */
+/* 0-255 */
+/* Heaxadecimal ko use karna */
+/* # tag */

@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(218, 22, 22);
+    padding: 2rem;
+}
+
+h1{
+    color: white;
+}
+
+.right button{
+    margin-left: 0.8rem;
+    font-size: 1.5rem;
+    color: white;
+    background-color: rgb(215, 46, 46);
+    border: none;         
+    padding-top: .3rem;
+    cursor: pointer;
+}
+
+.search{
+    padding: 2rem 0rem;
+    display: flex;
+    justify-content: center;
+    background-color: gray;
+}
+
+.searching{
+    width: 400px; 
+    max-width: 60%;
+    font-size: 1rem;
+    padding: .5rem;
+    border-radius: 5px;
+}
+
+.search > button{
+    margin-left: 0.5rem;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    background-color: rgb(215, 46, 46);
+    color: white;
+    padding: 0.5rem;
+    border-radius: 10px;
+}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./assets/images.jpg);
+    margin-bottom: 2rem;
+
+}
+
+.hero > h2{
+    color: white;
+    font-size: 2rem;
+    background-color: black;
+    margin-top: 1rem;
+}
+
+.hero > button{
+    background-color: rgb(215, 46, 46);
+    color: white;
+    font-size: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    padding: .5rem;
+    border-radius: .5rem;
+}
+
+.mover{
+    text-align: center;
+    padding: 1rem;
+}
+
+.mover > h2{
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.images{
+    height: 400px;
+    object-fit: cover;
+}
+
+.movie{
+    display: flex;
+    max-width: 100vw;
+    justify-content: flex-start; /* Aligns cards to the left */
+    text-align: center;
+    overflow-x: scroll;
+    padding-left: 1.5rem;
+
+}
+
+.card{
+    border: 0.5rem solid gray;
+    background-color: rgb(208, 199, 199);
+    margin-left: 1rem;
+    text-align: center;
+    border-radius: 10px; 
+    position: relative;
+}
+
+.card > h3{
+    font-size: 2rem;
+}
+
+.bot{
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.bot > img{
+    max-width: 80%;
+    border-radius: 10px;
+}
+
+@media(max-width:650px){
+    .logo{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .right{
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+    }
+    .movie{
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,28 @@
+.first{
+    /* display: inline; */
+    background-color: orange;
+    height: 50px;
+    width: 500px;
+}
+.second{
+    background-color: aqua;
+    height: 50px;
+    width: 500px;
+}
+span{
+    display: inline-block;
+    display: block;
+    height: 50px;
+    width: 50px;
+    background-color: green;
+    margin: 20px;
+}
+/* Block Element
+Height Width Margin */
+
+/* Inline Element 
+Height Width Nahi De Sakthe hai
+*/
+
+/* inline Block 
+Element Behave as inline lakin height width use kar sakthe hai*/

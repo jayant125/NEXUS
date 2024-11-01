@@ -1,0 +1,39 @@
+h1{
+    width: 300px;
+    height: 30px;
+    text-align: center;
+    background-color: aqua;
+    border-width: 2px;
+    border-style: solid;
+    border-color: blue;
+    border-radius: 25px;
+    padding: 10px;
+    margin-bottom: 100px;
+    /* Shorcuts */
+    /* border: 2px blue solid; */
+}
+
+h4{
+    background-color: plum;
+    /* border-left-width: 10px;
+    border-left-color: blue;
+    border-left-style: solid;
+    border-right-width: 10px;
+    border-right-color: brown;
+    border-right-style: dotted; */
+    border-width: 10px 20px;
+    border-style: solid;
+    border-color: green;
+}
+/* When We Have Two Option for Border Width  it will allocate to top to bottom */
+ul{
+    background-color: pink;
+}
+
+p{
+    background-color: burlywood;
+    border-width: 3.5px;
+    border-style: dashed;
+    border-color: aquamarine;
+    padding: 5px;
+}

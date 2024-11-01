@@ -1,0 +1,38 @@
+.container{
+    background-color: aquamarine;
+    height: 1000px;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center;
+    align-items: center;
+    flex-direction: row; */
+    flex-wrap: wrap;
+    align-content: center;
+}
+/* flex direction will identify my main axix */
+/* row: horizontal is main axis */
+/* col: vertical is main axis */
+/* Justify content it will around main  */
+
+.box{
+    height: 150px;
+    width: 150px;
+    border: 5px solid black;
+    margin: 5px;
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.box1{
+    background-color: red;
+}
+
+.box2{
+    background-color: blue;
+}
+.box3{
+    background-color: green;
+}
+.box4{
+    background-color: yellow;
+}
