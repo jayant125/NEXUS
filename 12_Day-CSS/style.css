@@ -6,6 +6,12 @@ h1{
     font-size: 2em;
 }
 
+/* Pixel size is determine by your  browser  size */
+/* em,  relative to parent font size element */
+/* rem, reletive to HTML Font size */
+/* %, retlatve to parent font size */
+
+
 /* Font Size 
 pixel px */
 

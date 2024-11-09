@@ -1,4 +1,22 @@
 h1{
+    font-size: 10vw;
     background-color: blanchedalmond;
     color: blueviolet;
+    font-weight: 900;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+/* % of view port of width */
+
+h2{
+    font-size: 5vw;
+    color:cadetblue;
+}
+
+p{
+    line-height: 1.5;
+    /* letter-spacing: 2px; */
+    word-spacing: 2px;
+    font-stretch: narrower;
 }

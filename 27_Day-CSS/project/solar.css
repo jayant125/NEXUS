@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-image: image();
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.orbit{
+    height: 100px;
+    width:  100px;
+    position: relative;
+}
+
+/* Sun */
+.sun{
+    height: 130px;
+    width:  130px;
+    right: 30px;
+    bottom: 30px;
+    border-radius: 50%;
+    background-color: #FB7209;
+    background-size: cover;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+/* Nercuary */
+.mercuary{
+    height: 50px;
+    width:  50px;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    background-color: #d3d3d3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    animation-name: mercuary;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes mercuary {
+    from{
+        transform: rotate(0deg) translate(150px) rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg) translate(150px) rotate(-360deg);
+    }
+}
+
+/* Venus */
+.venus{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #e07a57;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    animation-name: venus;
+    animation-duration: 7s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes venus {
+    from{
+        transform: rotate(0deg) translate(150px) rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg) translate(150px) rotate(-360deg);
+    }
+}
+
+/* Earth  */
+.earth{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #2e86c1;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    animation-name: earth;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes earth {
+    from{
+        transform: rotate(0deg) translate(200px) rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg) translate(200px) rotate(-360deg);
+    }
+}
+
+/* Mars */
+.mars{
+    height: 50px;
+    width: 50px;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    background-color: #d35400;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    animation-name: mars;
+    animation-duration: 12s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.orbital{
+    height: 200px;
+    width: 200px;
+    border: 1px solid white;
+    border-radius: 50%;
+    position: absolute;
+    right:  15px;
+    bottom: 30px;
+}
+
+@keyframes mars {
+    from{
+        transform: rotate(0deg) translate(150px) rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg) translate(150px) rotate(-360deg);
+    }
+}
+
+
+/* Jupyter */
+.jupyter{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #f8c471;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    animation-name: jupyter;
+    animation-duration: 20s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes jupyter {
+    from{
+        transform: rotate(0deg) translate(100px) rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg) translate(100px) rotate(-360deg);
+    }
+}
+
+/* Saturan */
+.saturan{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #f1c40f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: saturan;
+    animation-duration: 25s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+}
+@keyframes saturan {
+    from{
+        transform: rotate(0deg) translate(300px) rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg) translate(300px) rotate(-360deg);
+    }
+    
+}
+
+/* Uranus */
+.uranus{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #5dade2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: uranus;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes uranus {
+    from{
+        transform: rotate(0deg) translate(150px) rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg) translate(150px) rotate(-360deg);
+    }
+}
+
+
+/* Neptune */
+.neptune{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #7d3c98;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: neptune;
+    animation-duration: 35s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes neptune {
+    from {
+        transform: rotate(0deg) translate(380px) rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg) translate(380px) rotate(-360deg);
+    }
+}
+
+
