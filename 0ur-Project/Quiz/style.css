@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+}
+
+.container{
+    height: 800px;
+    width: 100%;
+    background-color: gray;
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+}
+
+.box{
+    font-size: 2rem;
+    background-color: salmon;
+    border: 0.5rem solid black;
+}
