@@ -23,4 +23,3 @@ obj2.id = 2;
 for(let key in obj2){
     console.log(key, obj2[key]);
 }
-

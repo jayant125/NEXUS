@@ -4,5 +4,7 @@
         "insta",
         "jayant",
         "passwoard"
-    ]
+    ],
+    "files.autoSave": "onFocusChange",
+    "editor.cursorStyle": "line-thin"
 }
