@@ -1,0 +1,65 @@
+node_module/
+./parcel-cache
+# General ignores
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.temp
+
+# IDE/Editor specific
+.vscode/
+.idea/
+
+# Node.js dependencies
+node_modules/
+
+# Environment files
+.env
+.env.local
+.env*.local
+
+# Build/output directories
+dist/
+build/
+out/
+.coverage/
+
+# Dependency files (package-lock.json should generally be committed, but added per your list)
+package-lock.json
+
+# TypeScript compiled files
+*.js
+*.js.map
+!index.html  # keep your main HTML file
+
+# Debug files
+debug.log
+*.pid
+
+# Local development files
+.ports
+.spellchecker
+
+# Custom directories/files from your list
+ghosts/  # appears twice in your list, might be temporary
+TINELINE  # if these are generated files
+OUTLINE
+XML/  # if generated content
+
+# .gitattributes
+* text=auto
+
+*.css text
+*.js text
+*.json text
+*.html text
+
+*.png binary
+*.jpg binary
+*.ttf binary
+
+# Add to existing .gitignore
+*.css.map
+*.js.map
+dist/
